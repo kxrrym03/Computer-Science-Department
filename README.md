@@ -43,11 +43,6 @@ Run queries in SWI-Prolog to retrieve information:
   teaches("David Mwathi", "Data Structures").
   ```
 
-## Future Improvements
-- Extend the database with more faculty and administrative information.
-- Add student records and enrollment details.
-- Implement an interactive Prolog-based query system.
-
 ## License
 This project is licensed under the MIT License.
 
