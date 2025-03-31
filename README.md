@@ -1,3 +1,57 @@
-# Computer-Science-Department
-A Knowledge Base System of the Computer Science Department in Chuka University using prolog
-The Knowledge-Based System (KBS) is designed to assist students in efficiently accessing information about lecturers within the department. It provides detailed insights into each lecturer's teaching responsibilities, including the courses they handle, their areas of specialization, and other relevant academic details. By using this system, students can make informed decisions regarding course selections, seek guidance from the right faculty members, and easily obtain contact or office details when needed.
+# UniversityX - Prolog Knowledge Base
+
+## Overview
+**UniversityX** is a Prolog-based knowledge base that stores and retrieves information about a university, including faculties, courses, units, lecturers, and their specializations.
+
+## Features
+- **University Details**: Stores information about the university, location, and departments.
+- **Courses & Units**: Lists courses offered and their associated units.
+- **Faculty & Lecturers**: Contains faculty members and their specializations.
+- **Query System**: Enables querying relationships such as which lecturer teaches a given unit.
+
+## File Structure
+- **universityx.pl**: The main Prolog knowledge base file containing all university-related facts and rules.
+
+## Installation & Setup
+1. Install [SWI-Prolog](https://www.swi-prolog.org/) if not already installed.
+2. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/universityx.git
+   cd universityx
+   ```
+3. Load the Prolog file in SWI-Prolog:
+   ```prolog
+   consult('universityx.pl').
+   ```
+
+## Usage
+Run queries in SWI-Prolog to retrieve information:
+- **Find all courses offered:**
+  ```prolog
+  course(Course).
+  ```
+- **Find units in the first year:**
+  ```prolog
+  unit(1, Code, Name).
+  ```
+- **Find lecturers specializing in Machine Learning:**
+  ```prolog
+  lec(Name, "Machine Learning").
+  ```
+- **Check if a lecturer teaches a unit:**
+  ```prolog
+  teaches("David Mwathi", "Data Structures").
+  ```
+
+## Future Improvements
+- Extend the database with more faculty and administrative information.
+- Add student records and enrollment details.
+- Implement an interactive Prolog-based query system.
+
+## License
+This project is licensed under the MIT License.
+
+---
+**Contributors:**
+- Your Name (your.email@example.com)
+
