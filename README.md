@@ -16,7 +16,7 @@
 1. Install [SWI-Prolog](https://www.swi-prolog.org/) if not already installed.
 2. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/universityx.git
+   git clone https://github.com/kxrrym03/universityx.git
    cd universityx
    ```
 3. Load the Prolog file in SWI-Prolog:
