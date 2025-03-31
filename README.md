@@ -52,6 +52,5 @@ Run queries in SWI-Prolog to retrieve information:
 This project is licensed under the MIT License.
 
 ---
-**Contributors:**
-- Your Name (your.email@example.com)
-
+## Author
+Kerry Kipsang
